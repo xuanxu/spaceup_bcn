@@ -17,3 +17,14 @@ h1{
 .callout {
   border: none;
 }
+
+#burger {
+  display: block;
+  padding: .7rem 1rem;
+  line-height: 1;
+  float:right;
+}
+
+#small-menu li {
+  display: block;
+}
