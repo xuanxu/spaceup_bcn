@@ -6,6 +6,6 @@ Everyone who attends SpaceUp is encouraged to give a talk, moderate a panel, or 
 
 This is the code for the static website of the event. It can be used as a template for other SpaceUp meetings easily 
 modifying logo and texts. It is mounted as a rack application (master branch), or as a pure static site in 
-the gh-pages branch, so it can be deployed automatically to heroku or as a github pages site.
+the gh-pages branch, so it can be deployed automatically to heroku or as a [github pages site](https://xuanxu.github.io/spaceup_bcn/).
 
 Released under the MIT license
