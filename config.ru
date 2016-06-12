@@ -15,7 +15,7 @@ map "/" do
   }
 end
 
-map "/local_team" do
+map "/team" do
   run lambda { |env|
     [
       200,
@@ -23,7 +23,7 @@ map "/local_team" do
         'Content-Type'  => 'text/html',
         'Cache-Control' => 'public, max-age=86400'
       },
-      File.open('public/local_team.html', File::RDONLY)
+      File.open('public/team.html', File::RDONLY)
     ]
   }
 end
