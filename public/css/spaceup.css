@@ -1,13 +1,23 @@
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:700");
 
 body, input, select, textarea {
   color: #003366;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-h1{
-  visibility: hidden;
-  height: 10px;
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 240px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 5px 5px 8px RGBA(0,0,0,.7);
+}
+
+.medium {
+  font-size: 32px;
+  line-height: 32px;
 }
 
 .footer {
@@ -27,4 +37,15 @@ h1{
 
 #small-menu li {
   display: block;
+}
+
+.bigpic {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 240px;
+  margin-bottom: 30px;
+}
+
+#local-team-header {
+  background-image: url("/images/pages/bg-local-team.jpg");
 }
