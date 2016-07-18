@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: SpaceUp Barcelona
+email: spaceup.bcn@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  SpaceUp Barcelona is a two-days space unconference, where participants
+  decide the topics, schedule, and structure of the event. November 26-27th, 2016.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://spaceupbcn.org" # the base hostname & protocol for your site
+twitter_username: SpaceUpBCN
+github_username:  xuanxu
+
+# Build settings
+markdown: kramdown
+
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'LICENSE', 'README.md']

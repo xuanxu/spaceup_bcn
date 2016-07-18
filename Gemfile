@@ -1,3 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rack'
+ruby '2.3.1'
+
+gem 'bundler'
+gem 'jekyll'
+gem 'rack-jekyll'
