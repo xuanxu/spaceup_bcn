@@ -1,0 +1,50 @@
+---
+layout: default
+title: Organization Team
+permalink: /team
+members:
+  - name: Armengol Torres
+    description: World Space Week, National Coordinators Manager
+    twitter: armengol
+    pic: http://placehold.it/350x200
+  - name: Milena Orlandini
+    description: Science and technology communication specialist, leading a R&D project in Space Technology and Digital Fabrication, as part of ESA-BIC Barcelona. Regional partner of UN World Space Week and SpaceUp Barcelona.
+    twitter: armengol
+    pic: http://placehold.it/350x200
+  - name: Oriol Gásquez
+    description: Ingeniero aeroespacial - Team Hakuto Japan Google Lunar XPrize
+    twitter: MLbluespace
+    pic: http://placehold.it/350x200
+  - name: Marta Lebrón
+    description: Traductora, lingüista y aficionada al espacio y a los SpaceUps
+    twitter: MLbluespace
+    pic: http://placehold.it/350x200
+  - name: Juanjo Bazán
+    description: Programador, aficionado a la astrofísica y al espacio galáctico e intergaláctico.
+    twitter: xuanxu
+    pic: http://placehold.it/350x200
+  - name: Stefania Tonetti
+    description: Ingeniera aeroespacial, PhD, trabaja en Deimos Madrid
+    twitter: armengol
+    pic: http://placehold.it/350x200
+  - name: Clara Giménez
+    description: bio de clara
+    twitter: clarajimenez
+    pic: http://placehold.it/350x200
+
+---
+
+<div id="local-team-header" class="bigpic">
+  <h1>Local Team</h1>
+</div>
+
+<div class="row small-up-1 medium-up-2 large-up-3">
+{% for member in page.members %}
+  <div class="column">
+    <img class="thumbnail" src="{{ member.pic }}">
+    <h5>{{ member.name }}</h5>
+    <p>{{ member.description }}</p>
+    <a href="https://twitter.com/{{ member.twitter }}" class="button small expanded hollow">@{{ member.twitter }}</a>
+  </div>
+{% endfor %}
+</div>
