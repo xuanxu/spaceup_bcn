@@ -6,6 +6,9 @@
     </span>
 
     <ul class="menu hide-for-small-only">
+      {% if page.url != '/' %}
+      <li><a href="/">Home</a></li>
+      {% endif %}
       <li><a title="Coming soon">Program</a></li>
       <li><a title="Coming soon">Sponsors</a></li>
       <li><a title="Coming soon">How to get there?</a></li>
