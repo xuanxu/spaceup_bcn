@@ -33,8 +33,12 @@ h1 {
   line-height: 32px;
 }
 
-.footer {
-  background-color: #e6e6e6;
+#footer img, #top-menu-complete img, #top-menu-short img{
+  opacity: 0.6;
+}
+
+#footer img:hover, #top-menu-complete img:hover, #top-menu-short img:hover{
+  opacity: 0.9;
 }
 
 .callout {
@@ -62,6 +66,9 @@ h1 {
 #local-team-header {
   background-image: url("/images/pages/bg-team.jpg");
 }
+hr.large {
+ max-width: 100%;
+ }
 
 #home-header {
   background-image: url("/images/pages/bg-home.jpg");
