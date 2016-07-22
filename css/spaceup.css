@@ -33,6 +33,11 @@ h1 {
   line-height: 32px;
 }
 
+.no-border {
+  border: 0;
+  box-shadow: none;
+}
+
 #footer img, #top-menu-complete img, #top-menu-short img{
   opacity: 0.6;
 }
@@ -81,4 +86,8 @@ hr.large {
 
 #location-header {
   background-image: url("/images/pages/bg-location.jpg");
+}
+
+#sponsors-header {
+  background-image: url("/images/pages/bg-sponsors.jpg");
 }
