@@ -27,6 +27,7 @@ members:
     description: Aerospace engineer, CEO of Onyriq, cofounder of STEAMakers. Former Google Lunar XPrize HAKUTO (Japan) software eng. and ISU SSP15
     twitter: Oriol_GG
     pic: oriol.png
+collaborators:
   - name: Holger Voss
     description: Space geek, astrophysicist working for Gaia mission, University of Barcelona (@GaiaUB), scale model rocketeer, mission director for #MoonDot missions of @Mausonaut
     twitter: SpaceHolgar
@@ -41,6 +42,10 @@ members:
   <h1>Organising Team</h1>
 </div>
 
+<div class="row column">
+  <h3>Local team</h3>
+</div>
+
 <div class="row small-up-1 medium-up-2 large-up-3">
 {% for member in page.members %}
   <div class="column">
@@ -53,3 +58,21 @@ members:
   </div>
 {% endfor %}
 </div>
+
+<div class="row column">
+  <h3>Special Collaborators</h3>
+</div>
+
+<div class="row small-up-1 medium-up-2 large-up-3">
+{% for collaborator in page.collaborators %}
+  <div class="column">
+    <img class="thumbnail" src="/images/team/{{ collaborator.pic }}">
+    <h5>{{ collaborator.name }}</h5>
+    <p>{{ collaborator.description }}</p>
+    {% if collaborator.twitter != '' %}
+      <a href="https://twitter.com/{{ collaborator.twitter }}" class="button small hollow">@{{ collaborator.twitter }}</a>
+    {% endif %}
+  </div>
+{% endfor %}
+</div>
+
