@@ -88,6 +88,10 @@ hr.large {
   background-image: url("/images/pages/bg-location.jpg");
 }
 
+#schedule-header {
+  background-image: url("/images/pages/bg-schedule.jpg");
+}
+
 #sponsors-header {
   background-image: url("/images/pages/bg-sponsors.jpg");
 }
