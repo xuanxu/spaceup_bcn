@@ -5,6 +5,6 @@
 Everyone who attends SpaceUp is encouraged to give a talk, moderate a panel, or start a discussion.
 
 This is the code for the static website of the event. It can be used as a template for other SpaceUp meetings easily
-modifying logo and texts. It is built using [Jekyll](https://jekyllrb.com/) and mounted as a rack application so it can be deployed automatically to [Heroku](https://www.heroku.com/) (use the [jekyll buildpack](https://github.com/andycroll/heroku-buildpack-jekyll)) or as a [GitHub Pages site](https://pages.github.com/).
+modifying logo and texts. It is built using [Jekyll](https://jekyllrb.com/) and mounted as a rack application so it can be deployed automatically to [Heroku](https://www.heroku.com/) (use the [jekyll buildpack](https://github.com/andycroll/heroku-buildpack-jekyll)), as a [GitHub Pages site](https://pages.github.com/) or to static websites platforms like [Netlify](https://www.netlify.com).
 
 Released under the MIT license
