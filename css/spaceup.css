@@ -88,6 +88,10 @@ hr.large {
   background-image: url("/images/pages/bg-location.jpg");
 }
 
+#registration-header {
+  background-image: url("/images/pages/bg-registration.jpg");
+}
+
 #schedule-header {
   background-image: url("/images/pages/bg-schedule.jpg");
 }
