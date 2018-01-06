@@ -63,12 +63,14 @@ collaborators:
     <img class="thumbnail" src="/images/team/{{ member.pic }}">
     <h5>{{ member.name }}</h5>
     <p>{{ member.description }}</p>
-    {% if member.twitter != '' %}
+    {% if member.twitter %}
       <a href="https://twitter.com/{{ member.twitter }}" class="button small hollow">@{{ member.twitter }}</a>
     {% endif %}
   </div>
 {% endfor %}
 </div>
+
+<br/>
 
 <div class="row column">
   <h3>Special Collaborators</h3>
@@ -80,7 +82,7 @@ collaborators:
     <img class="thumbnail" src="/images/team/{{ collaborator.pic }}">
     <h5>{{ collaborator.name }}</h5>
     <p>{{ collaborator.description }}</p>
-    {% if collaborator.twitter != '' %}
+    {% if collaborator.twitter %}
       <a href="https://twitter.com/{{ collaborator.twitter }}" class="button small hollow">@{{ collaborator.twitter }}</a>
     {% endif %}
   </div>
