@@ -3,47 +3,50 @@ layout: default
 title: Organising Team
 permalink: /team/
 members:
-  - name: Tinkerers Lab
-    description: Tinkerers Lab is a small R+D+I platform in Digital Fabrication Technologies that works with research and educational institutions to create innovate projects.
-    twitter: TinkerersFabLab
-    pic: tinkerers.jpg
   - name: Armengol Torres
-    description:  IT and aerospace senior consultant. He is the National Coordinators Manager at World Space Week and the founder and president of Comunitat NewSpace (NewSpace Cluster).
+    description: IT and aerospace senior consultant. He is the National Coordinators Manager at World Space Week and the founder and president of Comunitat NewSpace (NewSpace Cluster).
     twitter: armengoltorres
     pic: armengol.png
-  - name: Marta Lebrón
-    description: Freelance translator and linguist. She is passionate about space and astronomy. She is the editing team coordinator for the Space Generation Advisory Council and she also collaborates with World Space Week.
-    twitter: MLbluespace
-    pic: marta.png
-  - name: Clara Giménez
-    description: Physics student at Universitat de Barcelona. She aspires to become an astrophysicist and her dream is to become an astronaut. She is enthusiastic about anything space related.
-    twitter: astro_clarry
-    pic: clara.png
-  - name: Juanjo Bazán
-    description: M.Sc. in Astrophysics. Open Source Software developer and Open Science advocate. Galactic and intergalactic space enthusiast. 🦄 👾 🚀
-    twitter: xuanxu
-    pic: juanjo.png
-  - name: Francho García
-    description: Aerospace Engineer working at the European Space Agency (<a href="http://twitter.com/esa" target="_blank">@esa</a>) and National Point of Contact of the <a href="http://twitter.com/SGAC" target="_blank">@SGAC</a>. Since he was a kid he's been passionate about space and a fanatic of rockets. Someone he admires? Elon Musk - "I could either watch it happen or be part of it".
-    twitter: FdeFrancho
-    pic: francho.jpg
   - name: Milena Orlandini
     description: Science and technology communication specialist, leading a R&D project in Space Technology and Digital Fabrication, as part of ESA-BIC Barcelona. Regional partner of UN World Space Week and SpaceUp Barcelona.
     twitter: OrlandiniSpazio
     pic: milena.png
-collaborators:
-  - name: Holger Voss
-    description: Space geek, astrophysicist working for Gaia mission, University of Barcelona (<a href="http://twitter.com/GaiaUB" target="_blank">@GaiaUB</a>), scale model rocketeer, mission director for MoonDot missions of <a href="http://twitter.com/Mausonaut" target="_blank">@Mausonaut</a>
-    twitter: SpaceHolgar
-    pic: holger.jpg
+  - name: Marta Lebrón
+    description: Linguist, space enthusiast, and communicator. Communication Manager at Zero 2 Infinity, ISU SSP17 alumni and co-founder of astropreneurs.space. Collaborates with the Space Generation Advisory Council as Editing Team Coordinator. Lead organizer for SpaceUp Barcelona 2016, now back for take II.
+    twitter: MLbluespace
+    pic: marta.jpg
+  - name: Mar Fernández
+    description: Communication Consultant specialized in scientific dissemination, co-organizer of the "Missió Cosmos" Christmas show of 2016 at CosmoCaixa and organizer of the World Space Week Barcelona 2017 event.
+    pic: mar.png
+  - name: Mariona Badenas
+    description: Astrophysicist (Yale'16), space enthusiast, female advocate, pilot in training. Currently working as a research engineer in the space space division of GTD Barcelona, while she dreams of becoming an astronaut one day.
+    pic: mariona.png
+  - name: Pablo Miralles
+    description: Industrial and Aerospace Engineering student and young space professional working at GTD in ALTAIR (http://altair-h2020.eu/), looking forward to participating in the aerospace industry and community and help bring society back to the stars.
+    pic: pablo.jpg
+  - name: Clara Giménez
+    description: Physics student at Universitat de Barcelona. She aspires to become an astrophysicist and her dream is to become an astronaut. She is enthusiastic about anything space related.
+    twitter: astro_clarry
+    pic: clara.png
+  - name: Juan Luis Cano
+    description: Aerospace Engineer, Software Developer at Satellogic and Open Culture advocate. Chair of the Python España non-profit and developer of several software libraries for Astrodynamics and Astronomy.
+    pic: juanlu.jpg
   - name: Jeroen Toelen
     description: Innovation Officer for Colruyt Group. Space aficionado, tech enthusiast and (time)traveler.  He’s also the lead organiser at TEDxFlanders.
     twitter: JeroenToelen
     pic: jeroen.jpg
-  - name: Oriol Gásquez
-    description: Aerospace & software engineer at HAKUTO (Google Lunar XPrize Team) working on lunar robotic exploration systems in Tokyo. He is also cofounder of STEAMakers and ISU SSP15.
-    twitter: Oriol_GG
-    pic: oriol.png
+  - name: Jorge Onsulve
+    description: Humanist and Egyptologist, director and journalist of La Fábrica de la Ciencia Radio and organizer of educational scientific events. Director WISH SPATIAL PROJECT.
+    pic: jorge.png
+  - name: Juanjo Bazán
+    description: M.Sc. in Astrophysics. Open Source Software developer and Open Science advocate. Galactic and intergalactic space enthusiast. 🦄 👾 🚀
+    twitter: xuanxu
+    pic: juanjo.png
+collaborators:
+  - name: Holger Voss
+    description: Freelance STEM and space educator, worked for the ESA Gaia satellite mission and was supporting the CoRoT satellite while working at the German Aerospace Center DLR.
+    twitter: SpaceHolgar
+    pic: holger.jpg
 ---
 
 <div id="team-header" class="bigpic">
@@ -60,12 +63,14 @@ collaborators:
     <img class="thumbnail" src="/images/team/{{ member.pic }}">
     <h5>{{ member.name }}</h5>
     <p>{{ member.description }}</p>
-    {% if member.twitter != '' %}
+    {% if member.twitter %}
       <a href="https://twitter.com/{{ member.twitter }}" class="button small hollow">@{{ member.twitter }}</a>
     {% endif %}
   </div>
 {% endfor %}
 </div>
+
+<br/>
 
 <div class="row column">
   <h3>Special Collaborators</h3>
@@ -77,7 +82,7 @@ collaborators:
     <img class="thumbnail" src="/images/team/{{ collaborator.pic }}">
     <h5>{{ collaborator.name }}</h5>
     <p>{{ collaborator.description }}</p>
-    {% if collaborator.twitter != '' %}
+    {% if collaborator.twitter %}
       <a href="https://twitter.com/{{ collaborator.twitter }}" class="button small hollow">@{{ collaborator.twitter }}</a>
     {% endif %}
   </div>
