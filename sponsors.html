@@ -5,23 +5,23 @@ permalink: /sponsors/
 sponsors:
   - name: KIM
     link: http://kimglobal.com/en/
-    pic: kim.png
+    pic: kim.svg
   - name: GTD
     link: http://www.gtd.eu/
-    pic: gtd.png
+    pic: gtd.svg
   - name: Tinkerers Lab
     link: http://www.tinkerers.tech
     pic: tinkerers.jpg
 partners:
   - name: International Space University
     link: http://www.isunet.edu
-    pic: isu.jpg
+    pic: isu.svg
   - name: SGAC
     link: http://www.spacegeneration.org/
     pic: sgac.jpg
   - name: World Space Week
     link: http://www.worldspaceweek.org/
-    pic: wsw.jpg
+    pic: wsw.svg
   - name: Comunitat NewSpace Barcelona
     link: https://www.facebook.com/comunitatnewspace/
     pic: cnb.jpg
@@ -39,7 +39,7 @@ partners:
 {% for sponsor in page.sponsors %}
   <div class="column">
     <a href="{{ sponsor.link }}" target="_blank">
-      <img class="thumbnail no-border" alt="{{ sponsor.name }}" title="{{ sponsor.name }}" src="/images/sponsors/{{ sponsor.pic }}">
+      <img class="thumbnail no-border" alt="{{ sponsor.name }}" title="{{ sponsor.name }}" src="/images/sponsors/{{ sponsor.pic }}" width="442" >
     </a>
   </div>
 {% endfor %}
@@ -49,11 +49,11 @@ partners:
   <h3>Partners:</h3>
 </div>
 
-<div class="row small-up-1 medium-up-2 large-up-3">
+<div class="row small-up-2 large-up-4">
 {% for partner in page.partners %}
   <div class="column">
     <a href="{{ partner.link }}" target="_blank">
-      <img class="thumbnail no-border" alt="{{ partner.name }}" title="{{ partner.name }}" src="/images/sponsors/{{ partner.pic }}">
+      <img class="thumbnail no-border" alt="{{ partner.name }}" title="{{ partner.name }}" src="/images/sponsors/{{ partner.pic }}" width="330" >
     </a>
   </div>
 {% endfor %}
@@ -63,5 +63,5 @@ partners:
   <br><br>
   <p>SpaceUp Barcelona would not be posible without the generous support of our partners, sponsors and collaborators. A special thank you to all of them!</p>
 
-  <p>If you're interested in sponsoring or supporting SpaceUp BCN please take a look at our <a href="/files/SpaceUpBarcelonaSponsorBrochureEN.pdf">Sponsorship brochure [pdf]</a> (also available <a href="/files/SpaceUpBarcelonaSponsorBrochureES.pdf">in spanish</a>). If in doubt please <a href="/contact">contact us</a></p>
+  <p>If you're interested in sponsoring or supporting SpaceUp BCN please take a look at <a href="/files/SpaceUpBarcelonaSponsorBrochureEN.pdf">last year's sponsorship brochure [pdf]</a> (also available <a href="/files/SpaceUpBarcelonaSponsorBrochureES.pdf">in spanish</a>). If in doubt please <a href="/contact">contact us</a>.</p>
 </div>
