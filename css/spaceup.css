@@ -1,3 +1,5 @@
+---
+---
 body, input, select, textarea {
   color: #003366;
   font-family: "Source Sans Pro", sans-serif;
@@ -81,35 +83,35 @@ hr.large {
  }
 
 #home-header {
-  background-image: url("/images/pages/bg-home.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-home.jpg");
 }
 
 #not-found-header {
-  background-image: url("/images/pages/bg-home.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-home.jpg");
 }
 
 #team-header {
-  background-image: url("/images/pages/bg-team.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-team.jpg");
 }
 
 #location-header {
-  background-image: url("/images/pages/bg-location.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-location.jpg");
 }
 
 #registration-header {
-  background-image: url("/images/pages/bg-registration.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-registration.jpg");
 }
 
 #schedule-header {
-  background-image: url("/images/pages/bg-schedule.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-schedule.jpg");
 }
 
 #sponsors-header {
-  background-image: url("/images/pages/bg-sponsors.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-sponsors.jpg");
 }
 
 #contact-header {
-  background-image: url("/images/pages/bg-contact.jpg");
+  background-image: url("{{ site.baseurl }}/images/pages/bg-contact.jpg");
 }
 
 $social-button-size: 2.5rem;
