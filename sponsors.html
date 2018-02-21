@@ -42,7 +42,7 @@ partners:
 {% for sponsor in page.sponsors %}
   <div class="column">
     <a href="{{ sponsor.link }}" target="_blank">
-      <img class="thumbnail no-border" alt="{{ sponsor.name }}" title="{{ sponsor.name }}" src="/images/sponsors/{{ sponsor.pic }}" width="442" >
+      <img class="thumbnail no-border" alt="{{ sponsor.name }}" title="{{ sponsor.name }}" src="{{ site.baseurl }}/images/sponsors/{{ sponsor.pic }}" width="442" >
     </a>
   </div>
 {% endfor %}
@@ -56,7 +56,7 @@ partners:
 {% for partner in page.partners %}
   <div class="column">
     <a href="{{ partner.link }}" target="_blank">
-      <img class="thumbnail no-border" alt="{{ partner.name }}" title="{{ partner.name }}" src="/images/sponsors/{{ partner.pic }}" width="330" >
+      <img class="thumbnail no-border" alt="{{ partner.name }}" title="{{ partner.name }}" src="{{ site.baseurl }}/images/sponsors/{{ partner.pic }}" width="330" >
     </a>
   </div>
 {% endfor %}
@@ -66,5 +66,5 @@ partners:
   <br><br>
   <p>SpaceUp Barcelona would not be posible without the generous support of our partners, sponsors and collaborators. A special thank you to all of them!</p>
 
-  <p>If you're interested in sponsoring or supporting SpaceUp BCN please take a look at <a href="/files/SpaceUpBarcelonaSponsorBrochureEN.pdf">last year's sponsorship brochure [pdf]</a> (also available <a href="/files/SpaceUpBarcelonaSponsorBrochureES.pdf">in spanish</a>). If in doubt please <a href="/contact">contact us</a>.</p>
+  <p>If you're interested in sponsoring or supporting SpaceUp BCN please take a look at <a href="{{ site.baseurl }}/files/SpaceUpBarcelonaSponsorBrochureEN.pdf">last year's sponsorship brochure [pdf]</a> (also available <a href="{{ site.baseurl }}/files/SpaceUpBarcelonaSponsorBrochureES.pdf">in spanish</a>). If in doubt please <a href="{{ site.baseurl }}/contact">contact us</a>.</p>
 </div>

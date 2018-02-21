@@ -36,7 +36,6 @@ members:
     pic: jorge.png
   - name: Boyan Naydenov
     description: Aerospace engineering student at Universitat Politècnica de Catalunya. Working as a Software Developer in OpenCosmos. Member of UPC Space Program were he drives a satellite Ground Station.
-    twitter: naydden
     pic: boyan.jpg
 collaborators:
   - name: Holger Voss
@@ -64,7 +63,7 @@ collaborators:
 <div class="row small-up-1 medium-up-2 large-up-3">
 {% for member in page.members %}
   <div class="column">
-    <img class="thumbnail" src="/images/team/{{ member.pic }}">
+    <img class="thumbnail" src="{{ site.baseurl }}/images/team/{{ member.pic }}">
     <h5>{{ member.name }}</h5>
     <p>{{ member.description }}</p>
     {% if member.twitter %}
@@ -83,7 +82,7 @@ collaborators:
 <div class="row small-up-1 medium-up-2 large-up-3">
 {% for collaborator in page.collaborators %}
   <div class="column">
-    <img class="thumbnail" src="/images/team/{{ collaborator.pic }}">
+    <img class="thumbnail" src="{{ site.baseurl }}/images/team/{{ collaborator.pic }}">
     <h5>{{ collaborator.name }}</h5>
     <p>{{ collaborator.description }}</p>
     {% if collaborator.twitter %}
@@ -92,4 +91,3 @@ collaborators:
   </div>
 {% endfor %}
 </div>
-
