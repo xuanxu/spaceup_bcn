@@ -1,5 +1,10 @@
 ---
 ---
+@media only screen and (max-width: 500px) {
+    .callout {
+        padding: 0 !important;
+    }
+}
 body, input, select, textarea {
   color: #003366;
   font-family: "Source Sans Pro", sans-serif;
