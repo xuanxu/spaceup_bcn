@@ -1,8 +1,6 @@
-<div class="top-bar" {% if page.url != '/' %} style="display: flex; justify-content: space-between; align-items: center;" {% endif %}>
+<div class="top-bar" {% if page.url != '/' %} style="display: flex; flex-direction: column; justify-content: space-between; align-items: center;" {% endif %}>
   {% if page.url != '/' %}
-  <div class="top-bar-left">
-      <a href="{{ site.baseurl }}/"><img style="width:180px; padding: 10px;" src="{{ site.baseurl }}/images/spaceuplogo.png" alt="SpaceUp Barcelona" /></a>
-  </div>
+  <a href="{{ site.baseurl }}/"><img style="width:180px; padding: 10px;" src="{{ site.baseurl }}/images/spaceuplogo.png" alt="SpaceUp Barcelona" /></a>
   {% endif %}
   <div class="top-bar-right">
     <span id="burger" data-responsive-toggle="small-menu" data-hide-for="medium" class="show-for-small-only">
