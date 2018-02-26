@@ -72,7 +72,8 @@ speakers:
               {% for speaker in page.speakers %}
               <li  {% if forloop.index0 == '0' %} class="is-active orbit-slide" {% else %} class="orbit-slide" {% endif %}>
                 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-                  <img src="{{ site.baseurl }}/images/speakers/{{ speaker.pic }}" style="margin-right: 20px; width: 80mm; height: 80mm;">
+                  <img class="hide-for-small-only" src="{{ site.baseurl }}/images/speakers/{{ speaker.pic }}" style="margin-right: 20px; width: 80mm; height: 80mm;">
+                  <img class="show-for-small-only" src="{{ site.baseurl }}/images/speakers/{{ speaker.pic }}" style="margin-right: 20px; width: 60mm; height: 60mm;">
                   <div style="flex: 1 1 50%;">
                     <h3>{{ speaker.name }}
                     </h3>
