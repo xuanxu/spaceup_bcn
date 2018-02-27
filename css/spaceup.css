@@ -90,7 +90,9 @@ hr.large {
 #home-header {
   background-image: url("{{ site.baseurl }}/images/pages/bg-home.jpg");
 }
-
+#home-header .button:hover {
+    background-color: #090145 !important;
+}
 #not-found-header {
   background-image: url("{{ site.baseurl }}/images/pages/bg-home.jpg");
 }
