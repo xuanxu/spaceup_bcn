@@ -205,3 +205,14 @@ $social-brand-google-plus: #dd4b39;
   }
 }
 
+.responsive-card-table{
+  font-size: small;
+}
+
+.responsive-card-table   td {
+    border: white 2px solid;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: white;
+}
