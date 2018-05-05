@@ -10,7 +10,7 @@ title: SpaceUp Barcelona
 email: spaceup.bcn@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   SpaceUp Barcelona is a two-days space unconference, where participants
-  decide the topics, schedule, and structure of the event. 2018 edition coming soon.
+  decide the topics, schedule, and structure of the event. 2018 edition.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://spaceupbcn.org" # the base hostname & protocol for your site
 twitter_username: SpaceUpBCN
