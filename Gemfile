@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.4.3'
+ruby '2.7.1'
 
 gem 'bundler'
 gem 'jekyll'
