@@ -4,4 +4,4 @@ ruby '2.7.1'
 
 gem 'bundler'
 gem 'jekyll'
-gem 'rack-jekyll'
+gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
